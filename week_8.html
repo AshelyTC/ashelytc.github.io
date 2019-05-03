@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <script src="javascript.js"></script>
-    <title>Week 6</title>
+    <title>Week 7</title>
 </head>
 <body>
     <div class="wrapper">
@@ -56,58 +56,63 @@
         <!--Page Content-->
         <div id="content">
             <div>
-                <h2>Week 6: User Conditions and Design Day!</h2>
+
+                <h2>Week 8: System Design Specifications</h2>
 
                 <p>
-                        This week we went over the system design 
-                        and decided to modify our research question,
-                        which would help structure our ongoing investigation.
-                        Since we are focusing on two critical aspects of language development,
-                        joint-attention and American Sign Language acquisiton, we decided to
-                        subdivide our main research question:
+                    This week I worked on formalizing the design specs of the system. We’re basing this on our design goals, which are the following:
                 </p>
 
                 <ul>
                     <li>
-                        RQ 1.1: Can visual/audio/tactile feedback of child’s gaze increase parental awareness?
+                        Age-appropriate activity for child (6-18 months)
                     </li>
                     <li>
-                        RQ 1.2: Can a parent who signs based on child’s attention/focus improve language exposure?
+                        Non-intrusive face-to-face communication between parent and child
                     </li>
-
 
                 </ul>
 
-                <p>
+                <p>So, with these goals in mind here’s a brief rundown on what specific technologies we are planning on using:</p>
 
-                    We created two user conditions to gather observational
-                    data to answer our research questions. The first condition
-                    is providing our system to the user, which does not provide an indication
-                    of the infant’s visual attention. Whereas, in the second condition
-                    it does. The indicator is the feedback
-                    we give to the parent of the object their infant is looking at.
-                    As of now, we’re thinking about the indicator either being visual or haptic.
-                    The goal is to see how much of the parent’s communicative behaviors are
-                    influenced by the feedback prompts (aka the indicators).
-                    Below is a visual representation of the two user conditions:
+                <ul>
+                	<li>Name: Eye-tracker
+                		<ul>
+                			<li>Description: Collects data on child’s eye focus and delivers it to the rest of the system.</li>
+                			<li>Goal: Make the system aware of where the child is looking at and at what specific time interval. This information will be delivered to the wearable or AR device, prompting the appropriate signals for the parent.</li>
+                		</ul>
+
+                	</li>
+                	<li>Name: Visual/Haptic Wearable
+                		<ul>
+                			<li>Description: Wearable LED/haptic device for the parent, where green light indicates child’s visual focus on object and red when child’s attention is off-task (i.e. at researcher, system, parent etc.). The device will deliver a haptic response if parent initiates successful moments of joint-attention.</li>
+                			<li>Goal: The wearable device is light-weight and only visible to the parent, providing a non-intrusive mode of visual communication. This won’t distract the child and give the parent the freedom to be both attentive to the interaction and child’s attention focus. In addition, both visual and haptic signals are delivered to the parent to encourage reinforcement of successful communicative behaviors.</li>
+                			
+
+                		</ul>
+
+                	</li>
+                	<li> Name: Portable AR device 
+                		<ul>
+                			<li>Description: Augments the corresponding ASL translation of each object on table for parent’s reference.</li>
+                			<li>Goal: Help parent provide linguistically rich interactions without the obstacle of ASL non-fluency. In addition, it will encourage linguistic input to be delivered in the most accessible modality for the deaf child during successful moments of parent initiated joint-attention.</li>
+
+                		</ul>
+                	</li>
+                	
+                </ul>
+
+                <p>
+                   Next week I’ll begin drafting the poster for Design Day to present on Thursday. 
                 </p>
                 
-                
-                
-
-                <img src="noindicatorCondition.JPG" width="300" height="200">
-                <img src="indicatorCondition.JPG" width="300" height="200">
-
-                <p>
-                        We also decided to participate in Design Day, which is an event where undergraduates present their research and capstone projects. So for next week, I’ll create the user scenario illustrations and draft the writing materials for the poster. 
-                </p>
-                
+                               
                 
 
                 
             
                 
-                <h9>Published on April 15, 2019</h9>
+                <!-- <h9>Published on April 20, 2019</h9> -->
                     
                     
                         
